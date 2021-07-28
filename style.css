@@ -41,14 +41,6 @@
     padding: 10px 20px 20px 20px;
     display: flex;   
 }
-.choose{
-    padding-top: 10px;
-    padding-bottom: 30px;
-    width: 50px;
-    height: 30px;
-    cursor: pointer;
-    background-color: skyblue;
-}
 .ans{
     padding: 10px;
     background-color: white;
@@ -59,9 +51,13 @@
     cursor: pointer;
 }
 .choose:hover,.ans:hover{
-    box-shadow: 0 0.4rem 1.4rem 0 white;
     transition: transform 150ms;
 }
 .hide{
     display: none;
+}
+li button:hover{
+    background-color: cadetblue;
+    box-shadow: 0 0.4rem 1.4rem 0 white;
+    border-radius: 20px;
 }
