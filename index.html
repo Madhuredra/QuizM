@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="inner__container">
+            <h1 class="ques">What is your name ?</h1>
+            <ul>
+                <li>
+                    <button class="choose" value="a" onclick="getID(this.value);">A</button>
+                    <p  class="ans" id="option1" >(1) option One</p>
+                </li>
+                <li>
+                    <button class="choose" value="b" onclick="getID(this.value);">B</button>
+                    <p   class="ans" id="option2" >(2) option Two</p>
+                </li>
+                <li>
+                    <button class="choose" value="c" onclick="getID(this.value);">C</button>
+                    <p  class="ans" id="option3" >(3) option Three</p>
+                </li>
+                <li>
+                    <button class="choose" value="d" onclick="getID(this.value);">D</button>
+                    <p  class="ans" id="option4" >(4) option Four</p>
+                </li>
+            </ul>
+            <div class="btn">
+                <button id="submit" onclick="checkAnswer();">Next</button>
+            </div>
+            <h1 class="Score"></h1>
+            <div class="btn">
+                <button class="hide" onclick="location.reload();">Play Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
