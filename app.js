@@ -1,42 +1,42 @@
 const quizDB = [
     {
         question:"Ques-1 HTML stands for ?",
-        a:"Hyper Text Transfir Protocol",
-        b:"Hyper Text Markup Languauge",
-        c:"Hyper Text Transfir Languauge",
-        d:"None Of The Above",
+        a:"(a) Hyper Text Transfir Protocol",
+        b:"(b) Hyper Text Markup Languauge",
+        c:"(c) Hyper Text Transfir Languauge",
+        d:"(d) None Of The Above",
         ans:"b"
     },
     {
         question:"Ques-2 CSS stands for ?",
-        a:" Cascading Style Sheet",
-        b:" Casciding Style Sheet",
-        c:" Both a and b",
-        d:" None of The Above",
+        a:"(a) Cascading Style Sheet",
+        b:"(b) Casciding Style Sheet",
+        c:"(c) Both a and b",
+        d:"(d) None of The Above",
         ans:"a"
     },
     {
         question:"Ques-3 JS stands for ?",
-        a:"JavaScript",
-        b:"JavaSecret",
-        c:"Java",
-        d:"None Of The Above",
+        a:"(a) JavaScript",
+        b:"(b) JavaSecret",
+        c:"(c) Java",
+        d:"(d) None Of The Above",
         ans:"a"
     },
     {
         question:"Ques-4 ES stands for ?",
-        a:"EcmaScript",
-        b:"EkmaScript",
-        c:"Both a and b",
-        d:"None Of The Above",
+        a:"(a) EcmaScript",
+        b:"(b) EkmaScript",
+        c:"(c) Both a and b",
+        d:"(d) None Of The Above",
         ans:"a"
     },
     {
         question:"Ques-5 MERN stands for",
-        a:"MogoDB Express React Node",
-        b:"MogoDB Express Angular Node",
-        c:"None",
-        d:"Both a and b",
+        a:"(a) MogoDB Express React Node",
+        b:"(b) MogoDB Express Angular Node",
+        c:"(c) None",
+        d:"(d) Both a and b",
         ans:"a"
     },
 ]
